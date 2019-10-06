@@ -86,6 +86,7 @@ header nav {
 }
 header nav a {
 	text-decoration: none;
+	color: grey;
 }
 .introText {
 	display: flex;
@@ -151,10 +152,41 @@ footer {
  
 }
 @media(max-width:700px) {
-    .container{
-        border: 2px solid red;
+    .content {
+		border: 2px solid red;
+		display: flex;
+		justify-content: space-between;
+		padding-left: 2%;
     }
-    .intro img{
+    .intro img {
         display: none;
-    }
+	}
+	header {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		
+	}
+	header nav {
+		margin-top: 40px;
+	}
+	header .logo {
+		position: absolute;; 
+		top:-10px;
+		margin-left: 27%;
+	}
+	header nav a{
+		padding: 0 3.9%;
+	}
+	.middle-img {
+		width: 500px;
+	
+	}
+	button:hover {
+		box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+	}
+	nav a:hover{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
 }
+	}
