@@ -191,20 +191,17 @@ footer {
 	button:hover {
 		box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
 	}
-	nav a:hover{
+	/* nav a:hover{
         -webkit-transform: rotateZ(-30deg);
         -ms-transform: rotateZ(-30deg);
         transform: rotateZ(-30deg);
-}
+} */
 	}
-	@media(max-width:500px) {
+	@media(max-width: 500px) {
 		.container {
 			width: 100%;
 			margin: 0 auto;
 		  }
-		.container {
-			border: 2px solid red;
-		}
 		header{
 			display: flex;
 			flex-direction: column;
@@ -232,6 +229,9 @@ footer {
             flex-flow:row wrap;
             justify-content:space-evenly;
 		}
+		/* .textContent h3 p{
+			margin-bottom: 2%;
+		} */
 		.textContent {
 			flex-basis:70%;
 		}
@@ -245,17 +245,21 @@ footer {
 		}
 		.service {
 			flex-basis:70%;
+			margin-bottom: 2%;
 		}
 		.product {
 			flex-basis:70%;
+			margin-bottom: 2%;
 		}
 		.vision {
 			flex-basis:70%;
 		}
 		.contact{
-			display: flex;
-			justify-content:space-evenly;
-			align-content: center;
+			margin-left:17%;
+			margin-bottom: 4%;
+		}
+		.middle-img {
+			width: 28rem;
 		}
 	}
 	
