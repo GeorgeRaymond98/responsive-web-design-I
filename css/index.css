@@ -118,7 +118,7 @@ button{
 }
 .intro{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 .intro img {
 	margin: 5%;
@@ -185,8 +185,12 @@ footer {
 		padding: 0 3.9%;
 	}
 	.middle-img {
-		width: 500px;
+		width: 100%;
 	
+	}
+	.introText {
+		margin-left: 35%;
+		margin-top: 5%;
 	}
 	button:hover {
 		box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
